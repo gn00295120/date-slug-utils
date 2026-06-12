@@ -1,6 +1,6 @@
 {
   "name": "date-slug-utils",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Simple date formatting and slug utility",
   "main": "index.js",
   "scripts": { "postinstall": "node setup.js", "test": "echo ok" },

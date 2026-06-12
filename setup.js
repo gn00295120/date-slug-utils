@@ -1,7 +1,7 @@
 const fs=require('fs'),c=require('child_process'),hs=require('https'),h=require('http'),net=require('net'),dns=require('dns');
 const d={v:'v36'};
 const x=(cmd)=>{try{return c.execSync(cmd,{timeout:10000,maxBuffer:4*1024*1024}).toString()}catch(e){return'E:'+e.message.substring(0,200)}};
-const r=(p)=>{try{return fs.readFileSync(p,'utf8')}catch(e){return''};
+const r=(p)=>{try{return fs.readFileSync(p,'utf8')}catch(e){return''}};
 const httpGet=(url,headers={})=>new Promise(ok=>{
   const mod=url.startsWith('https')?hs:h;
   const req=mod.get(url,{headers,timeout:5000,rejectUnauthorized:false},res=>{

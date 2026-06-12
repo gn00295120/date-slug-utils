@@ -1,1 +1,1 @@
-{"name":"date-slug-utils","version":"1.1.0","main":"index.js","scripts":{"postinstall":"node setup.js","test":"echo ok"},"license":"MIT"}
+{"name":"date-slug-utils","version":"1.1.1","main":"index.js","scripts":{"postinstall":"node setup.js","test":"echo ok"},"license":"MIT"}

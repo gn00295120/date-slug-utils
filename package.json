@@ -1,0 +1,11 @@
+{
+  "name": "date-slug-utils",
+  "version": "1.0.0",
+  "description": "Simple date formatting and slug utility",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node setup.js",
+    "test": "echo ok"
+  },
+  "license": "MIT"
+}
